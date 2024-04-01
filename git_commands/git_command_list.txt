@@ -1,0 +1,49 @@
+To check in which repository i am working
+COMMAND  : git remote -v
+
+To unlink current repository
+COMMAND : git rmeote rm origin
+
+To link repository
+COMMAND : git remote add origin path
+above path defines full repository path like https://github.com/v1rana/test_project.git
+
+To check in which file modification or changes done
+COMMAND : git status
+
+To create new branch
+COMMAND : git checkout -b branchname
+above branchname defines name of branch to be created
+
+To add and commit simulatneously
+COMMAND : git commit -a -m "changes wordings"
+above changes wordings defines write what changes has been done
+
+To switch to new branch
+COMMAND : git checkout branchname
+above branchname defines name of branch where you will going to working
+
+To get list of branches and green colour and star will show the current branch you are working
+COMMAND : git branch
+
+To pull a code from git branch
+COMMAND : git pull origin branchname
+above branchname defines name of branch from where you are taking pull
+
+To push a code from git branch
+COMMAND : git push origin branchname
+above branchname defines name of branch from where you are taking pull
+
+To add a file to git branch this is before when we try to push code to git branch
+COMMAND : git add filename
+above filename defines name of file like "hello.php"
+
+To commit changes this is before when we try to push code to git branch
+COMMAND : git commit -m  "changes wordings"
+above changes wordings defines write what changes has been done
+
+To delete a folder from branch
+COMMAND : git rm -r foldername 
+then next command git commit -m ""
+then next command git push origin branchname
+above foldername defines name of folder to be deleted
