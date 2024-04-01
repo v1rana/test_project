@@ -1,4 +1,4 @@
 <?php
-echo "Repush this file";
+echo "push this fil";
 
 ?>
