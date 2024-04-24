@@ -24,7 +24,7 @@ COMMAND : git checkout branchname
 above branchname defines name of branch where you will going to working
 
 To get list of branches and green colour and star will show the current branch you are working
-COMMAND : git branch
+COMMAND : git branch -a
 
 To pull a code from git branch
 COMMAND : git pull origin branchname
