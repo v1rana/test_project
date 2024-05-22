@@ -1,3 +1,3 @@
 <?php
-echo "This is my updated code";
+echo "This is my updated code of git";
 ?>
